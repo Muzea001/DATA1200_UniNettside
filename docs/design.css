@@ -8,7 +8,7 @@
 
     html {
         height: 100%;
-        width: 100%;
+        width:100%;
     }
 
 
@@ -16,14 +16,14 @@
 
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 20px;
         color: #ffffff;
         text-decoration: none;
     }
 
     .header {
         font-family: sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         color: #ffd500;
         justify-content: space-between;
@@ -36,13 +36,13 @@
     .footer {
 
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         color: #ffd500;
         background-color: #000000;
         clear: both;
         position: fixed;
-        padding-top: 25px;
-        height: 80px;
+        padding-top: 15px;
+        height: 50px;
         width: 100%;
         bottom: 0;
         right: 0;
@@ -72,8 +72,8 @@
 
     .knapp {
         position: relative;
-        top: 750px;
-        right: -100px;
+        top: 300px;
+        right: -50px;
         float: none;
         color: #000000;
         background: #ffd500 !important;
@@ -100,7 +100,7 @@
         font-family: 'Montserrat', sans-serif;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 100%;
         margin-bottom: -15005px;
         padding: 0;
         background-color: #000000;
@@ -108,14 +108,14 @@
 
     .HomeKontainer {
         display: flex;
-        height: 1500px;
+        height: 1100px;
         background-color: black;
         align-items: stretch;
     }
 
     .fleks1 {
         width: 75%;
-        height: auto;
+        height: 900px;
         margin: 25px;
         solid-color: #e50000;
         background-color: #2b2b2b;
@@ -141,7 +141,7 @@
     .p1 {
         border: white;
         padding-top: 70px;
-        font-size: 30px;
+        font-size: 20px;
         color: rgb(232, 232, 232);
         float: none;
         top: 40px;
@@ -155,9 +155,9 @@
 
         width: 25%;
         margin: 20px;
-        height: auto;
+        height: 900px;
         solid-color: #e50000;
-        background-color: #2b2b2b;
+        background-color: #1f1f1f;
         text-align: center;
         color: #ffd500;
         padding-top: 90px;
@@ -179,7 +179,7 @@
     hr {
         border: none;
         height: 1px;
-        width: 1800px;
+        width: 1200px;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffd500, rgba(0, 0, 0, 0));
     }
 
@@ -217,7 +217,7 @@
 
 .paragraf {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 15px;
     margin: 30px;
     line-height: 42px;
     border-width: 20px;
@@ -268,7 +268,7 @@ div.flexboxitem.flexbox-item-2 {
 
 .side3Fleks2{
     width: auto;
-    height: 500px;
+    height: 350px;
     margin: 25px;
     background-color: #ffd500;
     text-align: center;
@@ -279,6 +279,19 @@ div.flexboxitem.flexbox-item-2 {
     flex-grow: 1;
 }
 
+.side3Fleks3{
+
+    width: auto;
+    height: 650px;
+    margin: 25px;
+    background-color: #2b2b2b;
+    text-align: center;
+    color: #ffd500;
+    padding-top: 20px;
+    font-weight: bold;
+    align-items: stretch;
+    flex-grow: 1;
+}
 
 .side3Fleks2 li a {
     margin-bottom: 30px;
@@ -292,7 +305,7 @@ div.flexboxitem.flexbox-item-2 {
 }
 
 .AccFleks2{
-    height: 700px;
+    height: 500px;
     width: auto;
     margin: 25px;
     background-color: #ffd500;
@@ -303,8 +316,8 @@ div.flexboxitem.flexbox-item-2 {
 }
 
 .testBilder{
-    width: 500px;
-    height: 450px;
+    width: 350px;
+    height: 300px;
     object-fit: cover;
     margin-right: 100px;
     border: 3px solid black;
