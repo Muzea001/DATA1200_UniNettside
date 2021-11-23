@@ -11,6 +11,13 @@
         width:100%;
     }
 
+.dropbtn{
+    display: none!important;
+    .
+}
+.dropdown{
+    display: none!important;
+}
 
     li, a, button {
 
@@ -31,6 +38,11 @@
         padding: 20px 10%;
         background-color: black;
 
+    }
+
+
+    .Tittel{
+        color: #ffd500!important;
     }
 
     .footer {
@@ -342,8 +354,52 @@ a:hover{
 @media (max-width: 800px){
 
 
-    li, a, button {
+    .dropbtn {
+        background-color: #ffd500;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
 
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #ffd500;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {background-color: #ddd;}
+
+    .show {display: block;}
+
+
+
+    .Dekstopliste{
+        display: none !important;
+    }
+
+    li, a, button {
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
         color: #ffffff;
@@ -352,6 +408,14 @@ a:hover{
 
     .nav_links{
         color: white;
+    }
+
+
+
+
+
+    .cta{
+        display: none;
     }
     .header {
         font-family: sans-serif;
@@ -558,8 +622,10 @@ a:hover{
 .p1{
     font-family: 'Montserrat', sans-serif;
 }
+    .Tittel{
+        color: #ffd500!important;
+    }
 }
-
 
 
 
