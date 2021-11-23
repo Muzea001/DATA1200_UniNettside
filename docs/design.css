@@ -58,11 +58,13 @@
     }
 
     .nav_links li {
+        color: #ffffff;
         display: inline-block;
         padding: 0px 20px;
     }
 
     .nav_links li a {
+        color: #ffffff;
         transition: all 0.3s ease 0s;
     }
 
@@ -179,7 +181,7 @@
     hr {
         border: none;
         height: 1px;
-        width: 1200px;
+        width: 100%;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffd500, rgba(0, 0, 0, 0));
     }
 
@@ -293,6 +295,19 @@ div.flexboxitem.flexbox-item-2 {
     flex-grow: 1;
 }
 
+a:link{
+    color: white;
+
+}
+
+a:visited{
+    color: grey;
+
+}
+a:hover{
+    color: white;
+}
+
 .side3Fleks2 li a {
     margin-bottom: 30px;
     color: #000000 !important;
@@ -325,7 +340,227 @@ div.flexboxitem.flexbox-item-2 {
 }
 
 
+@media (max-width: 800px){
 
+
+    li, a, button {
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .nav_links{
+        color: white;
+    }
+    .header {
+        font-family: sans-serif;
+        font-size: 10px;
+        display: flex;
+        color: #ffd500;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+
+    }
+
+    .HomeKontainer {
+        display: block;
+        height: 100%;
+        background-color: #000000;
+    }
+
+
+    .fleks1{
+        width: 100%;
+        height: 100%;
+        solid-color: #e50000;
+        background-color: #2b2b2b;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        align-items: center;
+        flex-grow: 1;
+        margin-bottom: 30px;
+    }
+
+    .bilder{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+    }
+    .fleks2 {
+
+        width: 100%;
+        height: 300px;
+        solid-color: #e50000;
+        background-color: #1f1f1f;
+        text-align: center;
+        color: #ffd500;
+        padding-top: 50px;
+        font-weight: bold;
+        align-items: center;
+
+    }
+
+    .footer {
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        color: #ffd500;
+        background-color: #000000;
+        clear: both;
+        padding-top: 15px;
+        height: 50px;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        text-align: center !important;
+        margin: auto;
+        opacity: 1;
+        text-shadow: 3px 3px 3px #483d3d;
+        flex-shrink: 0;
+    }
+
+    .h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: #ffd500;
+        margin: 0;
+        padding: 35px;
+        text-shadow: #000000;
+        text-shadow: 5px 5px 5px #000000;
+
+
+    }
+
+    .Listetittel{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .knapp {
+        margin-top: 20px;
+        color: #000000;
+        background: #ffd500 !important;
+    }
+
+    .body{
+        background-color: black;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .flexboxitem {
+        width: 100%;
+        solid-color: #e50000;
+        background-color: #2b2b2b;
+        text-align: center;
+        color: #ffd500;
+        font-weight: bold;
+        align-items: stretch;
+        flex-grow: 1;
+        margin: 0;
+
+    }
+
+    .flexboxitem-1{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        margin: 0;
+
+
+    }
+    .flexbox-item-2{
+        height: 100%;
+        width: 100%;
+    }
+    .andreBilder {
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+        border: 5px solid #ffd500 !important;
+    }
+    .flex-box-container{
+        display: block;
+        width: 100%;
+        background-color: black;
+    }
+
+    .paragraf {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 36px;
+        border-width: 20px;
+        font-weight: 900;
+
+    }
+
+    .FleksSide3Kontainer{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        align-items: stretch;
+    }
+
+    .side3Fleks1{
+        width: 100%;
+        height: 100%;
+    }
+
+    .AccFleks2 {
+        max-width: 100%;
+        background-color: #ffd500;
+        display: block;
+        align-content: center;
+
+    }
+    .testBilder {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border: 3px solid black;
+    }
+
+
+    .FleksSide3Kontainer{
+        width: 100%;
+    }
+
+
+    .side3Fleks1{
+        margin: 0px !important;
+    }
+.side3Fleks3{
+    height: 100%;
+    margin: 0;
+}
+
+.side3Fleks2{
+    height: 100%;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+
+.quote{
+    height:auto;
+    width : 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.Headere{
+    font-family: 'Montserrat', sans-serif;
+}
+.p1{
+    font-family: 'Montserrat', sans-serif;
+}
+}
 
 
 
