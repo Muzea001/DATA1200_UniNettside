@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="design.css">
     <meta charset="UTF-8">
-    <title>Fun page</title>
+    <title> Homepage </title>
+    <meta name="viewport" content="width=device-width, inital scale = 1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style></style>
 </head>
 <body>
-<a class="twitter-timeline" href="https://twitter.com/OsloMet?ref_src=twsrc%5Etfw">Tweets by OsloMet</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<header class="header">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"> Menu <i class="fa fa-bars"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="Page1.html">Reflection essay</a>
+            <a href="Page2.html">Accessibility</a>
+            <a href="Page3.html">Topical Information</a>
+            <a href="Fun%20page.html">Fun Page</a>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+    <a href="index.html"><h1 class="Tittel">Oslomet</h1></a>
+    <nav>
+        <ul class="nav_links">
+            <li class="Dekstopliste"><a href="index.html">Home</a></li>
+            <li class="Dekstopliste"><a href="Page1.html">Reflection-essay</a></li>
+            <li class="Dekstopliste"><a href="Page2.html">Accessibility</a></li>
+            <li class="Dekstopliste"><a href="Page3.html">Topical information</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href=Fun%20page.html>
+        <button><b>Navigate to next page</b></button>
+    </a>
+
+</header>
+<div class="Kolonne1">
+    <h1>A video introducing our school : </h1>
+    <br>
+    <div class="iFrame_Container"><iframe width="560" height="315" src="https://www.youtube.com/embed/SHi5avzdHIk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="Kolonne2">
+    <h1> Imported our schools tweets with a public API : </h1>
+    <br>
+    <a class="twitter-timeline" href="https://twitter.com/OsloMet?ref_src=twsrc%5Etfw">Tweets by OsloMet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <br>
+    <br>
+
+    <div class="Kolonne3">
+        <h1> This concludes our project. Thank you for getting this far !, Here is a celebration for you !</h1>
+        <br>
+        <audio controls>
+            <source src="344_audio_various_fireworks_distant_crowds_024.mp3"type="audio/mpeg" >
+        </audio>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="footer">
+    <footer>
+        <p>Work done by group <b>W</b> of Webutvikling</p>
+
+    </footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 801px) {
     * {
         box-sizing: border-box;
         margin: 0;
@@ -23,7 +23,7 @@
 
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 18px;
         color: #ffffff;
         text-decoration: none;
     }
@@ -72,7 +72,7 @@
     .nav_links li {
         color: #ffffff;
         display: inline-block;
-        padding: 0px 20px;
+        padding: 0px 10px;
     }
 
     .nav_links li a {
@@ -92,10 +92,12 @@
         color: #000000;
         background: #ffd500 !important;
     }
+    
+
 
 
     button {
-        padding: 9px 25px;
+        padding: 9px 5px;
         color: #000000;
         background-color: #ffd500;
         border: none;
@@ -127,8 +129,8 @@
     }
 
     .fleks1 {
-        width: 75%;
-        height: auto;
+        max-width: 70%;
+        max-height: 100%;
         margin: 25px;
         solid-color: #e50000;
         background-color: #2b2b2b;
@@ -181,14 +183,16 @@
 
 
     .bilder {
-        border-radius: 50%;
+        width: 300px;
+        height: 300px;
         max-width: 100%;
-        display: inline-block;
-        position: relative;
+        border-radius: 50%;
+        display: inline;
         padding-right: 20px;
         margin: 20px;
         object-fit: cover;
 
+        }
     }
     hr {
         border: none;
@@ -197,7 +201,7 @@
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffd500, rgba(0, 0, 0, 0));
     }
 
-    }
+
 
 p b {
     color: #ffd500;
@@ -264,7 +268,7 @@ div.flexboxitem.flexbox-item-2 {
 
 .FleksSide3Kontainer{
     display: inline;
-    height: auto;
+    max-width:  100%;
     background-color: black;
     align-items: stretch;
 }
@@ -329,14 +333,15 @@ a:hover{
     font-weight: bolder;
 }
 
-.quote{
+.quote {
     object-fit: cover;
     border-radius: 10px;
+    height: 160px;
+    width: 600px;
 }
-
 .AccFleks2{
     height: 500px;
-    width: auto;
+    max-height: 100%;
     margin: 25px;
     background-color: #ffd500;
     display: flex;
@@ -344,21 +349,74 @@ a:hover{
     justify-content: center;
 
 }
-
-.liste1 a:hover{
-    background-color: white;
-
+div.Gallery{
+    margin: 30px;
+    float: left;
 
 }
+
+div.Gallery:hover{
+    border: 1px solid #7e7777;
+}
+
+div.Description{
+    text-align: left;
+    font-weight: 400;
+    color: black;
+}
+
+.liste1 a:hover {
+    background-color: white;
+}
+.Kolonne3{
+    background-color: #090405;
+    color: #ffd500;
+
+}
+
 
 .testBilder{
     width: 350px;
     height: 300px;
+    max-width: 100%;
     object-fit: cover;
     margin-right: 100px;
     border: 3px solid black;
-    display: flex;
+
+
+
+
 }
+.Kolonne1{
+    color: #ffd500;
+    width: 100%;
+    text-align: center;
+    background-color: #090405;
+}
+
+.Kolonne2{
+    width: 100%;
+    align-content: center;
+    background-color: #090405;
+}
+
+div audio{
+}
+.iFrame_Container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.iFrame_Container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 @media (max-width: 800px){
@@ -441,7 +499,8 @@ a:hover{
 
     .HomeKontainer {
         display: block;
-        height: 100%;
+        max-width: 100%;
+        max-height:100% ;
         background-color: #000000;
     }
 
@@ -574,10 +633,9 @@ a:hover{
 
     .FleksSide3Kontainer{
         display: block;
-        height: 100%;
-        width: 100%;
+        max-width: 100%;
         background-color: black;
-        align-items: stretch;
+
     }
 
     .side3Fleks1{
@@ -585,13 +643,16 @@ a:hover{
         height: 100%;
     }
 
+
+
+
     .AccFleks2 {
         margin: 0;
-        max-width: 100%;
-        height: 100%;
+        height: 1600px;
+        width: 100%;
         background-color: #ffd500;
         display: block;
-        align-content: center;
+
 
     }
     .testBilder {
@@ -603,6 +664,10 @@ a:hover{
 
 
     .FleksSide3Kontainer{
+        width: 100%;
+    }
+
+    .Gallery{
         width: 100%;
     }
 
@@ -646,6 +711,19 @@ a:hover{
     li a:hover{
         background-color: white;
 
+    }
+
+    .Kolonne1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    }
+    .Kolonne2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    }
+    .Kolonne3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
     }
 }
 
