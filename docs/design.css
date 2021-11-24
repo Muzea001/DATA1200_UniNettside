@@ -348,10 +348,15 @@ a:hover{
     align-items: center;
     justify-content: center;
 
+
+
+}
+
+.MobilBilder{
+    display: none !important;
 }
 div.Gallery{
-    margin: 30px;
-    float: left;
+    align-content: center;
 
 }
 
@@ -581,6 +586,7 @@ div audio{
 
     body{
         margin: 0;
+        width: 100%!important;
         background-color: black;
     }
 
@@ -648,7 +654,7 @@ div audio{
 
     .AccFleks2 {
         margin: 0;
-        height: 1600px;
+        height: auto;
         width: 100%;
         background-color: #ffd500;
         display: block;
@@ -656,10 +662,10 @@ div audio{
 
     }
     .testBilder {
-        width: 100%;
+        max-width: 100%;
         height: 300px;
-        object-fit:scale-down;
-        border: 3px solid black;
+        object-fit:cover;
+
     }
 
 
@@ -668,7 +674,9 @@ div audio{
     }
 
     .Gallery{
+        display: none !important;
         width: 100%;
+        margin: 0;
     }
 
 
@@ -713,6 +721,14 @@ div audio{
 
     }
 
+    .MobilBilder{
+        display: block!important;
+        align-content: center;
+    }
+
+    .Description{
+        font-family: 'Montserrat', sans-serif;
+    }
     .Kolonne1{
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
