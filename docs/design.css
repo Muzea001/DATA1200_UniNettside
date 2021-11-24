@@ -130,7 +130,7 @@
 
     .fleks1 {
         max-width: 70%;
-        max-height: 100%;
+        height: auto;
         margin: 25px;
         solid-color: #e50000;
         background-color: #2b2b2b;
@@ -183,12 +183,12 @@
 
 
     .bilder {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         max-width: 100%;
         border-radius: 50%;
         display: inline;
-        padding-right: 20px;
+        padding-right: 10px;
         margin: 20px;
         object-fit: cover;
 
@@ -251,12 +251,18 @@ p b {
 
 }
 
+
+div.flexboxitem.flexboxitem-1{
+    height: auto;
+}
+
+
 div.flexboxitem.flexbox-item-2 {
     background-color: #2b2b2b;
     color: #ffd500;
     font-size: 20px;
     padding-top: 30px;
-    height: 2000px;
+    height: auto;
 }
 
 .andreBilder {
@@ -288,6 +294,7 @@ div.flexboxitem.flexbox-item-2 {
 }
 
 .side3Fleks2{
+    font-family: 'Montserrat', sans-serif;
     width: auto;
     height: 350px;
     margin: 25px;
@@ -333,14 +340,23 @@ a:hover{
     font-weight: bolder;
 }
 
+
+.item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .quote {
     object-fit: cover;
     border-radius: 10px;
+    display: block;
     height: 160px;
     width: 600px;
 }
 .AccFleks2{
-    height: 500px;
+    height: 550px;
     max-height: 100%;
     margin: 25px;
     background-color: #ffd500;
@@ -352,17 +368,12 @@ a:hover{
 
 }
 
-.MobilBilder{
-    display: none !important;
-}
 div.Gallery{
     align-content: center;
 
+
 }
 
-div.Gallery:hover{
-    border: 1px solid #7e7777;
-}
 
 div.Description{
     text-align: left;
@@ -381,12 +392,13 @@ div.Description{
 
 
 .testBilder{
-    width: 350px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
+    margin: 10px;
     max-width: 100%;
     object-fit: cover;
-    margin-right: 100px;
     border: 3px solid black;
+    box-shadow: 10px 5px 5px #000000;
 
 
 
@@ -654,7 +666,7 @@ div audio{
 
     .AccFleks2 {
         margin: 0;
-        height: auto;
+        height: 100%;
         width: 100%;
         background-color: #ffd500;
         display: block;
@@ -662,9 +674,11 @@ div audio{
 
     }
     .testBilder {
-        max-width: 100%;
+        width: 90%!important;
         height: 300px;
         object-fit:cover;
+        align-content: center;
+
 
     }
 
@@ -673,10 +687,9 @@ div audio{
         width: 100%;
     }
 
-    .Gallery{
-        display: none !important;
+    div.Gallery{
         width: 100%;
-        margin: 0;
+        margin: 0!important;
     }
 
 
@@ -696,11 +709,12 @@ div audio{
 
 
 .quote{
-    height:auto;
-    width : 300px;
-    object-fit: cover;
+    height: 100%;
+    width : 100%;
+    object-fit: contain;
     margin-bottom: 10px;
 }
+
 .Headere{
     font-family: 'Montserrat', sans-serif;
 }
@@ -724,6 +738,7 @@ div audio{
     .MobilBilder{
         display: block!important;
         align-content: center;
+        margin: 5px;
     }
 
     .Description{
@@ -741,6 +756,7 @@ div audio{
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
     }
+
 }
 
 
