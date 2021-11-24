@@ -156,6 +156,7 @@
     .p1 {
         border: white;
         padding-top: 70px;
+        margin: 5px;
         font-size: 20px;
         color: rgb(232, 232, 232);
         float: none;
@@ -719,6 +720,7 @@ div audio{
     font-family: 'Montserrat', sans-serif;
 }
 .p1{
+    margin: 5px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
