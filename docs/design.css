@@ -36,6 +36,7 @@
         color: #ffd500;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
         padding: 20px 10%;
         background-color: black;
 
@@ -509,6 +510,10 @@ div audio {
         background-color: black;
         width: 100%;
 
+    }
+
+    .Dekstopliste{
+        display: none!important;
     }
 
     .HomeKontainer {
