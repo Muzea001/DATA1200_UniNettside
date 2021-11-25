@@ -8,16 +8,17 @@
 
     html {
         height: 100%;
-        width:100%;
+        width: 100%;
     }
 
-.dropbtn{
-    display: none!important;
+    .dropbtn {
+        display: none !important;
     .
-}
-.dropdown{
-    display: none!important;
-}
+    }
+
+    .dropdown {
+        display: none !important;
+    }
 
     li, a, button {
 
@@ -41,8 +42,8 @@
     }
 
 
-    .Tittel{
-        color: #ffd500!important;
+    .Tittel {
+        color: #ffd500 !important;
     }
 
     .footer {
@@ -92,8 +93,6 @@
         color: #000000;
         background: #ffd500 !important;
     }
-    
-
 
 
     button {
@@ -193,21 +192,20 @@
         margin: 20px;
         object-fit: cover;
 
-        }
     }
-    hr {
-        border: none;
-        height: 1px;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffd500, rgba(0, 0, 0, 0));
-    }
+}
 
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffd500, rgba(0, 0, 0, 0));
+}
 
 
 p b {
     color: #ffd500;
 }
-
 
 
 .Listetittel {
@@ -253,7 +251,7 @@ p b {
 }
 
 
-div.flexboxitem.flexboxitem-1{
+div.flexboxitem.flexboxitem-1 {
     height: auto;
 }
 
@@ -273,14 +271,14 @@ div.flexboxitem.flexbox-item-2 {
 }
 
 
-.FleksSide3Kontainer{
+.FleksSide3Kontainer {
     display: inline;
-    max-width:  100%;
+    max-width: 100%;
     background-color: black;
     align-items: stretch;
 }
 
-.side3Fleks1{
+.side3Fleks1 {
 
     width: auto;
     height: auto;
@@ -294,7 +292,7 @@ div.flexboxitem.flexbox-item-2 {
     flex-grow: 1;
 }
 
-.side3Fleks2{
+.side3Fleks2 {
     font-family: 'Montserrat', sans-serif;
     width: auto;
     height: 350px;
@@ -308,7 +306,7 @@ div.flexboxitem.flexbox-item-2 {
     flex-grow: 1;
 }
 
-.side3Fleks3{
+.side3Fleks3 {
 
     width: auto;
     height: 650px;
@@ -322,16 +320,17 @@ div.flexboxitem.flexbox-item-2 {
     flex-grow: 1;
 }
 
-a:link{
+a:link {
     color: white;
 
 }
 
-a:visited{
+a:visited {
     color: grey;
 
 }
-a:hover{
+
+a:hover {
     color: white;
 }
 
@@ -342,7 +341,7 @@ a:hover{
 }
 
 
-.item{
+.item {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -356,7 +355,8 @@ a:hover{
     height: 160px;
     width: 600px;
 }
-.AccFleks2{
+
+.AccFleks2 {
     height: 550px;
     max-height: 100%;
     margin: 25px;
@@ -366,17 +366,16 @@ a:hover{
     justify-content: center;
 
 
-
 }
 
-div.Gallery{
+div.Gallery {
     align-content: center;
 
 
 }
 
 
-div.Description{
+div.Description {
     text-align: left;
     font-weight: 400;
     color: black;
@@ -385,14 +384,15 @@ div.Description{
 .liste1 a:hover {
     background-color: white;
 }
-.Kolonne3{
+
+.Kolonne3 {
     background-color: #090405;
     color: #ffd500;
 
 }
 
 
-.testBilder{
+.testBilder {
     width: 270px;
     height: 270px;
     margin: 10px;
@@ -402,31 +402,32 @@ div.Description{
     box-shadow: 10px 5px 5px #000000;
 
 
-
-
 }
-.Kolonne1{
+
+.Kolonne1 {
     color: #ffd500;
     width: 100%;
     text-align: center;
     background-color: #090405;
 }
 
-.Kolonne2{
+.Kolonne2 {
     width: 100%;
     align-content: center;
     background-color: #090405;
 }
 
-div audio{
+div audio {
 }
-.iFrame_Container{
+
+.iFrame_Container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
-.iFrame_Container iframe{
+
+.iFrame_Container iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -435,9 +436,7 @@ div audio{
 }
 
 
-
-
-@media (max-width: 800px){
+@media (max-width: 800px) {
 
 
     .dropbtn {
@@ -464,7 +463,7 @@ div audio{
         background-color: #f1f1f1;
         min-width: 160px;
         overflow: auto;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
 
@@ -475,15 +474,14 @@ div audio{
         display: block;
     }
 
-    .dropdown a:hover {background-color: #ddd;}
-
-    .show {display: block;}
-
-
-
-    .Dekstopliste{
-        display: none !important;
+    .dropdown a:hover {
+        background-color: #ddd;
     }
+
+    .show {
+        display: block;
+    }
+
 
     li, a, button {
         font-family: 'Montserrat', sans-serif;
@@ -492,17 +490,15 @@ div audio{
         text-decoration: none;
     }
 
-    .nav_links{
+    .nav_links {
         color: white;
     }
 
 
-
-
-
-    .cta{
+    .cta {
         display: none;
     }
+
     .header {
         font-family: sans-serif;
         font-size: 10px;
@@ -518,12 +514,12 @@ div audio{
     .HomeKontainer {
         display: block;
         max-width: 100%;
-        max-height:100% ;
+        max-height: 100%;
         background-color: #000000;
     }
 
 
-    .fleks1{
+    .fleks1 {
         width: 100%;
         height: 100%;
         solid-color: #e50000;
@@ -536,12 +532,13 @@ div audio{
         margin-bottom: 30px;
     }
 
-    .bilder{
+    .bilder {
         width: 100px;
         height: 100px;
         border-radius: 50%;
 
     }
+
     .fleks2 {
 
         width: 100%;
@@ -587,25 +584,25 @@ div audio{
 
     }
 
-    .Listetittel{
+    .Listetittel {
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
     }
+
     .knapp {
         margin-top: 20px;
         color: #000000;
         background: #ffd500 !important;
     }
 
-    body{
+    body {
         margin: 0;
-        width: 100%!important;
+        width: 100% !important;
         background-color: black;
     }
 
     .flexboxitem {
         width: 100%;
-        solid-color: #e50000;
         background-color: #2b2b2b;
         text-align: center;
         color: #ffd500;
@@ -616,7 +613,7 @@ div audio{
 
     }
 
-    .flexboxitem-1{
+    .flexboxitem-1 {
         height: 100%;
         width: 100%;
         background-color: black;
@@ -624,17 +621,20 @@ div audio{
 
 
     }
-    .flexbox-item-2{
+
+    .flexbox-item-2 {
         height: 100%;
         width: 100%;
     }
+
     .andreBilder {
         width: 300px;
         height: 250px;
         object-fit: cover;
         border: 5px solid #ffd500 !important;
     }
-    .flex-box-container{
+
+    .flex-box-container {
         display: block;
         width: 100%;
         background-color: black;
@@ -650,19 +650,17 @@ div audio{
 
     }
 
-    .FleksSide3Kontainer{
+    .FleksSide3Kontainer {
         display: block;
         max-width: 100%;
         background-color: black;
 
     }
 
-    .side3Fleks1{
+    .side3Fleks1 {
         width: 100%;
         height: 100%;
     }
-
-
 
 
     .AccFleks2 {
@@ -674,87 +672,95 @@ div audio{
 
 
     }
+
     .testBilder {
-        width: 90%!important;
+        width: 90% !important;
         height: 300px;
-        object-fit:cover;
+        object-fit: cover;
         align-content: center;
 
 
     }
 
 
-    .FleksSide3Kontainer{
+    .FleksSide3Kontainer {
         width: 100%;
     }
 
-    div.Gallery{
+    div.Gallery {
         width: 100%;
-        margin: 0!important;
+        margin: 0 !important;
     }
 
 
-    .side3Fleks1{
+    .side3Fleks1 {
         margin: 0px !important;
     }
-.side3Fleks3{
-    height: 100%;
-    margin: 0;
-}
 
-.side3Fleks2{
-    height: 100%;
-    padding-bottom: 30px;
-    margin: 0;
-}
-
-
-.quote{
-    height: 100%;
-    width : 100%;
-    object-fit: contain;
-    margin-bottom: 10px;
-}
-
-.Headere{
-    font-family: 'Montserrat', sans-serif;
-}
-.p1{
-    margin: 5px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-}
-    .Tittel{
-        color: #ffd500!important;
+    .side3Fleks3 {
+        height: 100%;
+        margin: 0;
     }
 
-    .sources{
+    .side3Fleks2 {
+        height: 100%;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+
+
+    .quote {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .Headere {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .p1 {
+        margin: 5px;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+    }
+
+    .Tittel {
+        color: #ffd500 !important;
+    }
+
+    .sources {
         color: black;
 
     }
-    li a:hover{
+
+    li a:hover {
         background-color: white;
 
     }
 
-    .MobilBilder{
-        display: block!important;
+    .MobilBilder {
+        display: block !important;
         align-content: center;
         margin: 5px;
     }
 
-    .Description{
+    .Description {
         font-family: 'Montserrat', sans-serif;
     }
-    .Kolonne1{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-    }
-    .Kolonne2{
+
+    .Kolonne1 {
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
     }
-    .Kolonne3{
+
+    .Kolonne2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    }
+
+    .Kolonne3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
     }
